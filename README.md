@@ -17,7 +17,7 @@ Image Customizer can manipulation or altering a photograph using various methods
 </br>->Sharpen Filter
 </br>->Laplacian Filter
 </br>->Sobel Filter (Gx & Gy)
-* Custom Filters of size NxN  (where N is odd) can also be Applied
+* Custom Filters of size NxN (where N is odd) can also be Applied
 
 ## Formulas Used:
 * RGB Image to GrayScale Image
@@ -32,13 +32,5 @@ Image Customizer can manipulation or altering a photograph using various methods
 * RGB Image to Darken Image
 </br>Darken Image =(R-Darkness,G-Darkness,B-Darkness)
 * [Bilinear Interpolation](https://en.wikipedia.org/wiki/Bilinear_interpolation) 
-#### All Defined Filters are 3x3
-* Mean Filter = [[1,1,1],[1,1,1],[1,1,1]]
-* Gaussian Filter = [[1,2,1],[2,4,2],[1,2,1]]
-* Reflect Filter = [[-1,0,0],[0,1,0],[0,0,1]]
-* Sharpen Filter = [[-1,-1,-1],[-1,9,-1],[-1,-1,-1]]
-* Laplacian Filter = [[0,-1,0],[-1,4,-1],[0,-1,0]]
-* Sobel Gx Filter = [[-1,0,1],[-2,0,2],[-1,0,1]]
-* Sobel Gy Filter = [[-1,-2,-1],[0,0,0],[1,2,1]]
 
 ## [Implementation & Output](https://github.com/PrakharPipersania/Image-Customizer/blob/main/image%20customizer.ipynb)
